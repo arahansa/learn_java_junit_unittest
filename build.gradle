@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.4.31.Final'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
     testCompile("org.assertj:assertj-core:3.11.1")
